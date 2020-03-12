@@ -1,0 +1,29 @@
+item {
+  name: "stop"
+  id: 1
+  display_name: "stop"
+}
+
+item {
+  name: "car"
+  id: 2
+  display_name: "car"
+}
+
+item {
+  name: "motorcycle"
+  id: 3
+  display_name: "motorcycle"
+}
+
+item {
+  name: "bus"
+  id: 4
+  display_name: "bus"
+}
+
+item {
+  name: "person"
+  id: 5
+  display_name: "person"
+}

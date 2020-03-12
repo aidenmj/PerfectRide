@@ -99,7 +99,7 @@ with detection_graph.as_default():
           if scores[0][i] >= 0.5:
             cv2.putText(image_np, 'STOP!!!', (300,50), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0,0,255), 3)
 
-         if classes[0][i] == 2 or classes[0][i] == 3 or classes[0][i] == 4:
+         if classes[0][i] == 2 or classes[0][i] == 3 or classes[0][i] == 4:#Distances
 
           if scores[0][i] >= 0.5:
             mid_x = (boxes[0][i][1]+boxes[0][i][3])/2
